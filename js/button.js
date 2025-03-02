@@ -147,7 +147,29 @@ const sixBtn=document.getElementById('six-btn')
 
 
       })
+    
 
+   const first= document.getElementById('first-btn')
+        .addEventListener('click',
+        function(event){
+           const title= document.getElementById('titleOne').innerText;
+            console.log(title);           
+            const details=document.getElementById('details');
+            console.log(details);
+            const currentTime = new Date();
+            const formattedTime = currentTime.toLocaleTimeString();
+            const newDiv=document.createElement('div');
+            const newP=document.createElement('p');
+            newP.innerText=`You have completed the task ${title}at ${formattedTime} `;
+            newDiv.appendChild(newP);
+            details.appendChild(newDiv);
+            newP.style.backgroundColor='lightblue';
+            newP.style.borderRadius='10px';
+            newP.style.marginTop='10px';
+
+    })
+
+    
 
 
  
