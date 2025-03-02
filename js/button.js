@@ -258,6 +258,8 @@ const sixBtn=document.getElementById('six-btn')
              newP.style.borderRadius='10px';
              newP.style.marginTop='10px';
      })
+
+     
     
 
 
