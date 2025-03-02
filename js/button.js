@@ -160,15 +160,104 @@ const sixBtn=document.getElementById('six-btn')
             const formattedTime = currentTime.toLocaleTimeString();
             const newDiv=document.createElement('div');
             const newP=document.createElement('p');
-            newP.innerText=`You have completed the task ${title}at ${formattedTime} `;
+            newP.innerText=`You have completed the task ${title} at ${formattedTime} `;
             newDiv.appendChild(newP);
             details.appendChild(newDiv);
             newP.style.backgroundColor='lightblue';
             newP.style.borderRadius='10px';
             newP.style.marginTop='10px';
-
     })
-
+   const second= document.getElementById('second-btn')
+        .addEventListener('click',
+        function(event){
+           const title= document.getElementById('titleTwo').innerText;
+            console.log(title);           
+            const details=document.getElementById('details');
+            console.log(details);
+            const currentTime = new Date();
+            const formattedTime = currentTime.toLocaleTimeString();
+            const newDiv=document.createElement('div');
+            const newP=document.createElement('p');
+            newP.innerText=`You have completed the task ${title} at ${formattedTime} `;
+            newDiv.appendChild(newP);
+            details.appendChild(newDiv);
+            newP.style.backgroundColor='lightblue';
+            newP.style.borderRadius='10px';
+            newP.style.marginTop='10px';
+    })
+   const third= document.getElementById('third-btn')
+        .addEventListener('click',
+        function(event){
+           const title= document.getElementById('titleThree').innerText;
+            console.log(title);           
+            const details=document.getElementById('details');
+            console.log(details);
+            const currentTime = new Date();
+            const formattedTime = currentTime.toLocaleTimeString();
+            const newDiv=document.createElement('div');
+            const newP=document.createElement('p');
+            newP.innerText=`You have completed the task ${title} at ${formattedTime} `;
+            newDiv.appendChild(newP);
+            details.appendChild(newDiv);
+            newP.style.backgroundColor='lightblue';
+            newP.style.borderRadius='10px';
+            newP.style.marginTop='10px';
+    })
+   const fourth= document.getElementById('fourth-btn')
+        .addEventListener('click',
+        function(event){
+           const title= document.getElementById('titleFourth').innerText;
+            console.log(title);           
+            const details=document.getElementById('details');
+            console.log(details);
+            const currentTime = new Date();
+            const formattedTime = currentTime.toLocaleTimeString();
+            const newDiv=document.createElement('div');
+            const newP=document.createElement('p');
+            newP.innerText=`You have completed the task ${title} at ${formattedTime} `;
+            newDiv.appendChild(newP);
+            details.appendChild(newDiv);
+            newP.style.backgroundColor='lightblue';
+            newP.style.borderRadius='10px';
+            newP.style.marginTop='10px';
+    })
+    
+    const fifth= document.getElementById('fifth-btn')
+         .addEventListener('click',
+         function(event){
+            const title= document.getElementById('titleFifth').innerText;
+             console.log(title);           
+             const details=document.getElementById('details');
+             console.log(details);
+             const currentTime = new Date();
+             const formattedTime = currentTime.toLocaleTimeString();
+             const newDiv=document.createElement('div');
+             const newP=document.createElement('p');
+             newP.innerText=`You have completed the task ${title} at ${formattedTime} `;
+             newDiv.appendChild(newP);
+             details.appendChild(newDiv);
+             newP.style.backgroundColor='lightblue';
+             newP.style.borderRadius='10px';
+             newP.style.marginTop='10px';
+     })
+    const six= document.getElementById('six-btn')
+         .addEventListener('click',
+         function(event){
+            const title= document.getElementById('titleSix').innerText;
+             console.log(title);           
+             const details=document.getElementById('details');
+             console.log(details);
+             const currentTime = new Date();
+             const formattedTime = currentTime.toLocaleTimeString();
+             const newDiv=document.createElement('div');
+             const newP=document.createElement('p');
+             newP.innerText=`You have completed the task ${title} at ${formattedTime} `;
+             newDiv.appendChild(newP);
+             details.appendChild(newDiv);
+             newP.style.backgroundColor='lightblue';
+             newP.style.borderRadius='10px';
+             newP.style.marginTop='10px';
+     })
     
 
 
