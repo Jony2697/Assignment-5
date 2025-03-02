@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#F4F7FF] ">
+    <header class="max-w-screen-xl mx-auto  bg-white p-2 rounded-lg relative">
+        <nav class="flex justify-between">
+            <div class="flex items-center">
+                <img class="w-10" src="assets/logo.png" alt="">
+                <h1 class="text-2xl">Dev<span class="font-bold">Board</span></h1>
+            </div>
+            <div class="flex justify-around items-center gap-3">
+                <div class="flex items-center gap-1 bg-[#F4F7FF] p-2 rounded-lg">
+                    <img src="assets/checkbox.png" alt="">
+                    <h1 class="font-bold text-2xl" id="total-complete">23</h1>
+                </div>
+                <div class="bg-[#F4F7FF] p-2 rounded-3xl">
+                    <img class="w-8" src="assets/theme-btn.png" alt="">
+                </div>
+            </div>
+        </nav>
+        <section>
+            <nav class="absolute top-22 right-5 rounded-md w-72 ">
+                <div class="h-screen bg-white rounded-xl text-center p-3">
+                    <div class="flex justify-center">
+                        <img src="assets/activity.png" alt="">
+                        <p>Activity Log</p>
+                    </div>
+                    <button class="btn mt-4 bg-blue-600 text-white border-none">Clear History</button>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- task assigned section -->
+    <section class="w-4/6 ml-10 mt-6 bg-white rounded-md flex justify-between gap-3  absolute">  
+        <main class="max-w-screen-lg p-3">
+            <div class="grid grid-cols-4 gap-4">
+                <div class="flex items-center gap-10 col-start-1 p-3 bg-[#F4F7FF] rounded-xl">
+                    <div>
+                        <img src="assets/checkbox.png" alt="">
+                    </div>
+                    <div>
+                        <p>Task Assigned</p>
+                        <h1 class="font-bold text-2xl" id="task-assign">06</h1>
+                    </div>
+                </div>
+                <div class="flex p-2 items-center col-start-2 col-span-2 bg-gradient-to-l from-sky-500 to-indigo-500 rounded-xl">
+                    <img src="assets/board.png" alt="">
+                    <p class="text-white font-semibold">Discover Something <br> New Today!</p>
+                </div>
+                <div class="flex justify-center items-center w-full gap-2 bg-[#F4F7FF] p-2 rounded-xl px-10">
+                    <div>
+                        <img src="assets/calender.png" alt="">
+                    </div>
+                    <div>
+                        <p>Sunday,<br><span class="font-bold">Mar 2 2025</span></p>
+                    </div>
+                </div>
+            </div>
+        </main> 
+          
+    </section>
+    
+    <section class="w-4/6  grid grid-cols-3 p-5 gap-3 ml-10 bg-white mt-35 rounded-md">
+        <div class="box bg-[#F4F7FF] p-2 rounded-md">
+            <div class="bg-[#F4F7FF]">
+                <div>
+                    <p class="bg-white inline-block p-2 mb-3 rounded-sm">ShopEase</p>
+                     <h1 class="text-2xl font-semibold mb-3">Fix Mobile Button Issue </h1>
+                <p class="bg-white mb-3 p-2 rounded-sm">Debug using Chrome DevTools, check for overlapping</p>
+            </div>
+            <div >
+                <div class="flex justify-around items-center">
+                    <div>
+                        <p>Deadline</p>
+                        <h3 class="font-semibold ">21 March 2025</h3>
+                    </div>           
+                    <div>
+                        <button id="first-btn" class="btn bg-blue-600 border-none text-white" >Complete</button>
+                    </div>
+                </div>
+            </div>
+                </div>
+        </div>  
+        <div class="box bg-[#F4F7FF] p-2 rounded-md">
+            <div class="bg-[#F4F7FF]">
+                <div>
+                    <p class="bg-white inline-block p-2 mb-3 rounded-sm">CloudSync</p>
+                <h1 class="text-2xl font-semibold mb-3">Add Dark Mode</h1>
+                <p class="bg-white mb-3 p-2 rounded-sm">Store the user's preference in localStorage, update CSS variables</p>
+            </div>
+            <div >
+                <div class="flex justify-around items-center">
+                    <div>
+                        <p>Deadline</p>
+                        <h3 class="font-semibold ">21 March 2025</h3>
+                    </div>           
+                    <div>
+                        <button class="btn bg-blue-600 border-none text-white" id="second-btn">Complete</button>
+                    </div>
+                </div>
+            </div>
+                </div>
+        </div>  
+        <div class="box bg-[#F4F7FF] p-2 rounded-md">
+            <div class="bg-[#F4F7FF]">
+                <div>
+                    <p class="bg-white inline-block p-2 mb-3 rounded-sm">SwiftPay</p>
+                <h1 class="text-2xl font-semibold mb-3">Optimize  Home page </h1>
+                <p class="bg-white mb-3 p-2 rounded-sm">Debug using Chrome DevTools, check for overlapping</p>
+            </div>
+            <div >
+                <div class="flex justify-around items-center">
+                    <div>
+                        <p>Deadline</p>
+                        <h3 class="font-semibold ">21 March 2025</h3>
+                    </div>           
+                    <div>
+                        <button class="btn bg-blue-600 border-none text-white">Complete</button>
+                    </div>
+                </div>
+            </div>
+                </div>
+        </div>  
+        <div class="box bg-[#F4F7FF] p-2 rounded-md">
+            <div class="bg-[#F4F7FF]">
+                <div>
+                    <p class="bg-white inline-block p-2 mb-3 rounded-sm">Meta</p>
+                <h1 class="text-2xl font-semibold mb-3">Add new emoji 🤲</h1>
+                <p class="bg-white mb-3 p-2 rounded-sm">Debug using Chrome DevTools, check for overlapping</p>
+            </div>
+            <div >
+                <div class="flex justify-around items-center">
+                    <div>
+                        <p>Deadline</p>
+                        <h3 class="font-semibold ">21 March 2025</h3>
+                    </div>           
+                    <div>
+                        <button class="btn bg-blue-600 border-none text-white">Complete</button>
+                    </div>
+                </div>
+            </div>
+                </div>
+        </div>  
+        <div class="box bg-[#F4F7FF] p-2 rounded-md">
+            <div class="bg-[#F4F7FF]">
+                <div>
+                    <p class="bg-white inline-block p-2 mb-3 rounded-sm">Google LLC</p>
+                <h1 class="text-2xl font-semibold mb-3">Integrate OpenAI API </h1>
+                <p class="bg-white mb-3 p-2 rounded-sm">Debug using Chrome DevTools, check for overlapping</p>
+            </div>
+            <div >
+                <div class="flex justify-around items-center">
+                    <div>
+                        <p>Deadline</p>
+                        <h3 class="font-semibold ">21 March 2025</h3>
+                    </div>           
+                    <div>
+                        <button class="btn bg-blue-600 border-none text-white">Complete</button>
+                    </div>
+                </div>
+            </div>
+                </div>
+        </div>  
+        <div class="box bg-[#F4F7FF] p-2 rounded-md">
+            <div class="bg-[#F4F7FF]">
+                <div>
+                    <p class="bg-white inline-block p-2 mb-3 rounded-sm">Glassdoar</p>
+                <h1 class="text-2xl font-semibold mb-3">Improve Job searching </h1>
+                <p class="bg-white mb-3 p-2 rounded-sm">Debug using Chrome DevTools, check for overlapping</p>
+            </div>
+            <div >
+                <div class="flex justify-around items-center">
+                    <div>
+                        <p>Deadline</p>
+                        <h3 class="font-semibold ">21 March 2025</h3>
+                    </div>           
+                    <div>
+                        <button class="btn bg-blue-600 border-none text-white">Complete</button>
+                    </div>
+                </div>
+            </div>
+                </div>
+        </div>       
+    </section>
+
+    <script src="js/button.js"></script>
+
+</body>
+</html>
